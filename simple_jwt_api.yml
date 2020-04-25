@@ -35,6 +35,6 @@ spec:
           securityContext:
             privileged: false
             readOnlyRootFilesystem: false
-            allowPrivilegeEscalation: false
+            allowPrivilegeEscalation: true
           ports:
             - containerPort: 8080
